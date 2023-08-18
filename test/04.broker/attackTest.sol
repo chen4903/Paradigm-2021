@@ -10,7 +10,7 @@ import "./uniswapV2/router.sol";
 import "./interface.sol";
 
 contract attackTest is Test {
-    string constant weth9_Artifact = 'out/helper_WETH9.sol/WETH9.json';
+    string constant weth9_Artifact = 'out/tools/helper_WETH9.sol/WETH9.json';
 
     Setup public level;
     IWETH9 public weth;
